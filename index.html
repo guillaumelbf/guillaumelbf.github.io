@@ -23,10 +23,10 @@
         <nav id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand"><a href="#page-top">Guillaume Lefebvre</a></li>
-                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
-                <li class="sidebar-nav-item"><a href="#about">About</a></li>
-                <li class="sidebar-nav-item"><a href="#services">Services</a></li>
-                <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="sidebar-nav-item"><a href="#page-top">Acceuil</a></li>
+                <li class="sidebar-nav-item"><a href="#about">Qui suis-je ?</a></li>
+                <li class="sidebar-nav-item"><a href="#skills">Mes compétences</a></li>
+                <li class="sidebar-nav-item"><a href="#portfolio">Mes projets</a></li>
                 <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -35,74 +35,75 @@
             <div class="container px-4 px-lg-5 text-center">
                 <h1 class="mb-1">Guillaume Lefebvre</h1>
                 <h3 class="mb-5"><em>Portfolio</em></h3>
-                <a class="btn btn-primary btn-xl" href="#portfolio">Projects</a>
+                <a class="btn btn-primary btn-xl" href="#portfolio">Mes Projets</a>
             </div>
         </header>
         <!-- About-->
         <section class="about fullpage content-section bg-light" id="about">
             <div class="container">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <img src="assets/img/profile.png" alt="profile">
+                    <div class="col-auto">
+                        <img src="assets/img/avatar.jpg" alt="avatar">
+                    </div>
                 </div>
             </div>
             <div class="container px-4 px-lg-5 text-center">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
-                        <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
+                        <h2>Qui suis-je ?</h2>
                         <p class="lead mb-5">
-                            This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-                            <a href="https://unsplash.com/">Unsplash</a>
-                            !
+                            Salut 👋 Je m'appelle Guillaume Lefebvre, Je suis développeur de jeu vidéo passionné, qui adore toutes sortes de jeux vidéo (aventure, AAA, indé ou encore compétitif) ! 
+                            <br>
+                            Mon domaine d'activité est vaste, allant du Tooling jusqu'a la programmation gameplay en passant par la
+                            programmation moteur, je m'interesse un peu a tout. J'ai eu l'occasion tout a long de mes études de travailler sur différents projet seul ou en
+                            équipe qui m'ont permis de développer de nombreuses compétences !
                         </p>
-                        <a class="btn btn-dark btn-xl" href="#services">What We Offer</a>
+                        <a class="btn btn-dark btn-xl" href="#skills">Mes compétences</a>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Services-->
-        <section class="content-section bg-primary text-white text-center" id="services">
+        <!-- Skills-->
+        <section class="skills content-section bg-primary text-white text-center" id="skills">
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading">
-                    <h3 class="text-secondary mb-0">Services</h3>
-                    <h2 class="mb-5">What We Offer</h2>
+                    <h2 class="mb-5">Mes compétences</h2>
                 </div>
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-screen-smartphone"></i></span>
-                        <h4><strong>Responsive</strong></h4>
-                        <p class="text-faded mb-0">Looks great on any screen size!</p>
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-solid fa-code"></i></span>
+                        <h4><strong>Programmation</strong></h4>
+                        <p class="mb-0">
+                            Mes languages de programmation sont principalement le C++ et le C#. <br>
+                            Mais j'utilise également d'autre languages comme le GLSL/HLSL pour les shaders.
+                        </p>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
-                        <h4><strong>Redesigned</strong></h4>
-                        <p class="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
-                        <h4><strong>Favorited</strong></h4>
-                        <p class="text-faded mb-0">
-                            Millions of users
-                            <i class="fas fa-heart"></i>
-                            Start Bootstrap!
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-solid fa-gears"></i></span>
+                        <h4><strong>Moteurs</strong></h4>
+                        <p class="mb-0">
+                            Pour ce qui est des moteurs de jeu j'utilise Unity ainsi que Unreal Engine 4.<br>
+                            Dans le cadres de mes études j'ai également réaliser de A à Z un moteur custom Solid Engine.<br>
+                            <a class="" href="#!">Projet ici !</a>
                         </p>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
-                        <h4><strong>Question</strong></h4>
-                        <p class="text-faded mb-0">I mustache you a question...</p>
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-solid fa-code-branch"></i></span>
+                        <h4><strong>Versionning</strong></h4>
+                        <p class="mb-0">
+                            Du côté du versionning je sais utiliser aussi bien Git que Perforce, j'ai pu utiliser ces deux systèmes lors de mes projets.<br>
+                            J'ai également un github <a class="" href="#!">ici</a> !
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-solid fa-calendar-day"></i></span>
+                        <h4><strong>Gestion de projet</strong></h4>
+                        <p class="mb-0">
+                            La réalisation de projet collaboratif avec les différents coeur de métier m'ont permis de mettre en place et d'utiliser des méthodes 
+                            de gestion de projet, notament la méthode Scrum.
+                        </p>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Callout-->
-        <section class="callout">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mx-auto mb-5">
-                    Welcome to
-                    <em>your</em>
-                    next website!
-                </h2>
-                <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
             </div>
         </section>
         <!-- Portfolio-->
@@ -110,76 +111,98 @@
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading text-center">
                     <h3 class="text-secondary mb-0">Portfolio</h3>
-                    <h2 class="mb-5">Recent Projects</h2>
+                    <h2 class="mb-5">Mes Projets</h2>
                 </div>
                 <div class="row gx-0">
                     <div class="col-lg-6">
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <div class="h2">Stationary</div>
-                                    <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                                    <div class="h1">Solid Engine</div>
+                                    <p class="mb-0">Développement d'un moteur custom de A à Z</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/placeholder-700x467.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/SolidEngine_Portfolio_Card.png" alt="..." />
                         </a>
                     </div>
                     <div class="col-lg-6">
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <div class="h2">Ice Cream</div>
-                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                    <div class="h1">RTS IA</div>
+                                    <p class="mb-0">Développement d'une IA pour un jeu RTS</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/placeholder-700x467.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/RTS_Portfolio_Card.png" alt="..." />
                         </a>
                     </div>
                     <div class="col-lg-6">
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <div class="h2">Strawberries</div>
-                                    <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                                    <div class="h1">Ice&Lava</div>
+                                    <p class="mb-0">Création d'un environnement réaliste avec des Game Artist</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/placeholder-700x467.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/TechArt_Portfolio_Card.png" alt="..." />
                         </a>
                     </div>
                     <div class="col-lg-6">
                         <a class="portfolio-item" href="#!">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <div class="h2">Workspace</div>
-                                    <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                                    <div class="h1">TPS Multi</div>
+                                    <p class="mb-0">Third Person Shooter en multijoueur réseau local</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/placeholder-700x467.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/placeholder-1280x720.png" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h1">DAEMON UNLEASHED</div>
+                                    <p class="mb-0">Brawler 3D réalisé en collaboration avec des Game Designer</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/DeamonUnleashed_Portfolio_Card.png" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h1">3lob</div>
+                                    <p class="mb-0">Platformer 2.5D réalisé en collaboration avec des Game Designer</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/Blob_Portfolio_Card.png" alt="..." />
                         </a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Call to Action-->
-        <section class="content-section bg-primary text-white">
+        <!-- <section class="content-section bg-primary text-white">
             <div class="container px-4 px-lg-5 text-center">
                 <h2 class="mb-4">The buttons below are impossible to resist...</h2>
                 <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
                 <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
             </div>
-        </section>
+        </section> -->
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container px-4 px-lg-5">
                 <ul class="list-inline mb-5">
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-facebook"></i></a>
+                        <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/guillaumelbf" target="_blank"><i class="icon-social-linkedin"></i></a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
+                        <a class="social-link rounded-circle text-white mr-3" href="#!" target="_blank"><i class="icon-social-twitter"></i></a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
+                        <a class="social-link rounded-circle text-white" href="https://github.com/guillaumelbf" target="_blank"><i class="icon-social-github"></i></a>
                     </li>
                 </ul>
                 <p class="text-muted small mb-0">Copyright &copy; Guillaume Lefebvre 2022</p>
